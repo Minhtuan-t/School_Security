@@ -25,7 +25,7 @@ void loop() {
   float Temperature = dht.readTemperature();
 
 
-  Serial.print("MQ-2 Analog Value: ");
+  Serial.print("MP-2 Analog Value: ");
   Serial.print(gasValue);
   Serial.print(" | Digital: ");
   Serial.println(gasDigital == LOW ? "Gas detected!" : "No gas");
